@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Form{% endblock title %}
+{% block body %}
+<div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+  <form name="contactform" action="contact.php" method="post" class="contact-form" style="width: 50%;">
+    <div class="form-item">
+      <label style="color: black;">Department</label>
+      <select name="" id=""  class="u-full-width bg-light">
+        <option value="">fdsafds</option>
+        <option value="">fdsafds</option>
+        <option value="">fdsafds</option>
+      </select>
+      <label style="color: black;">Doctor Name</label>
+      <select name="" id=""  class="u-full-width bg-light">
+        <option value="">fdsafds</option>
+        <option value="">fdsafds</option>
+        <option value="">fdsafds</option>
+      </select>
+      <label style="color: black;">Review</label>
+      <textarea class="u-full-width bg-light" name="message" placeholder="Message" style="height: 180px;" required></textarea>
+    </div>
+    
+    <button type="submit" name="submit" class="btn btn-dark btn-full btn-medium">Submit</button>
+  </form>
+
+</div>
+{% endblock %}
